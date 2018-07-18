@@ -18,16 +18,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iDR-ei-Efv">
-                                <rect key="frame" x="75" y="438" width="270" height="123"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iDR-ei-Efv">
+                                <rect key="frame" x="0.0" y="574" width="375" height="93"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="93" id="Y1f-IA-UQg"/>
+                                </constraints>
                                 <connections>
                                     <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ter-AU-lFd"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="iDR-ei-Efv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="9pv-OF-nlA"/>
+                            <constraint firstItem="iDR-ei-Efv" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="PRd-sv-KCS"/>
+                            <constraint firstItem="iDR-ei-Efv" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="YKw-fa-iyM"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
